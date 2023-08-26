@@ -65,8 +65,6 @@ For the final adjustment, I decreased the training size to one month. Then I set
         
 This model was better at recalling short position trades (-1.0) and more precise as well. It was not as good at recalling long position trades (1.0) nor as precise. 
 
-
-
-## Conclusion
-
+![Actual Returns V  Strategy Returns LR Model](https://github.com/JulHendrickson/Module-14-Challenge/assets/81846691/ae889b56-6e17-4f06-858e-640c341ff46e)
+#### Conclusion
 These models would not produce consistent winning trades. More data and further adjusting of the algorithm is needed before going live with this trading bot.
