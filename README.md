@@ -26,9 +26,9 @@ For the final step, I applied the original trained data and applied it to a seco
 
 The SVM model is on 55% accurate overall. It is very good at recalling long position trades (1.0) but very poor at recalling short position trades (-1.0). Furthermore, it is not very precise for short or long positions.
 
-This model's returns show it underperformed compared to actual returns. 
 
 ![Actual Returns V  Strategy Returns baseline](https://github.com/JulHendrickson/Module-14-Challenge/assets/81846691/56dd9c21-a1f0-48a9-8146-23253c5aa457)
+This model's returns show it underperformed compared to actual returns.
 
 #### SVM model classification report after adjusting SMA and training data
                    precision    recall  f1-score   support
@@ -43,7 +43,7 @@ This model's returns show it underperformed compared to actual returns.
 After applying adjusting the parameters the model performed even better at recalling long position trades (1.0) and even worse at recalling short position trades (-1.0). There were no improvements in precision.
 
 
-
+![Actual Returns V  Strategy Returns tuned training](https://github.com/JulHendrickson/Module-14-Challenge/assets/81846691/40766a85-f48d-4912-985f-3fc567031e92)
 I found that increasing the size of the training dataset seemed to negatively affect the trading algorithm. So I decreased to one month and saw it performed very similar to the baseline with a slight improvement at the beginning and end of the data period. 
 
 
