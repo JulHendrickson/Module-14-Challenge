@@ -50,6 +50,8 @@ I found that increasing the size of the training dataset seemed to negatively af
 ![Actual Returns V  Strategy Returns tuned SMA](https://github.com/JulHendrickson/Module-14-Challenge/assets/81846691/95e3fd18-19c8-4438-88fe-606ed32d92f8)
 I found that increasing both SMA windows seemed to negatively affect the trading algorithm. I decreased both and saw the same negative affect. Then, I decided to shorten the short window and lengthen the long window and saw a slight improvement overall. However, It still seemed to remain very consistent with the baseline.
 
+![short_1_long_10_1_month](https://github.com/JulHendrickson/Module-14-Challenge/assets/81846691/38af814e-b2b0-4ee7-bafe-7496b47d2da2)
+For the final adjustment, I decreased the training size to one month. Then I set the short and long windows to 1 and 110 days respectively.
 
 #### Linear Regression model classification report
                    precision    recall  f1-score   support
