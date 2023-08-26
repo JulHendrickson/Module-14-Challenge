@@ -47,7 +47,7 @@ After applying adjusting the parameters the model performed even better at recal
 I found that increasing the size of the training dataset seemed to negatively affect the trading algorithm. So I decreased to one month and saw it performed very similar to the baseline with a slight improvement at the beginning and end of the data period. 
 
 
-
+![Actual Returns V  Strategy Returns tuned SMA](https://github.com/JulHendrickson/Module-14-Challenge/assets/81846691/95e3fd18-19c8-4438-88fe-606ed32d92f8)
 I found that increasing both SMA windows seemed to negatively affect the trading algorithm. I decreased both and saw the same negative affect. Then, I decided to shorten the short window and lengthen the long window and saw a slight improvement overall. However, It still seemed to remain very consistent with the baseline.
 
 
