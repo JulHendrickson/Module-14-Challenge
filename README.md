@@ -28,7 +28,7 @@ The SVM model is on 55% accurate overall. It is very good at recalling long posi
 
 This model's returns show it underperformed compared to actual returns. 
 
-
+![Actual Returns V  Strategy Returns baseline](https://github.com/JulHendrickson/Module-14-Challenge/assets/81846691/56dd9c21-a1f0-48a9-8146-23253c5aa457)
 
 #### SVM model classification report after adjusting SMA and training data
                    precision    recall  f1-score   support
